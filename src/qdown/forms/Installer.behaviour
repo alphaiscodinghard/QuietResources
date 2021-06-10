@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label3">
+    <behaviour enabled="" level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="rect">
+    <behaviour animated="1" opacity="0.8" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="progressIndicator">
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="progressIndicatorAlt">
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

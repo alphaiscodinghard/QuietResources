@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472" prefWidth="712" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="1017" id="image" layoutX="-604" layoutY="-272" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1920">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <TextArea AnchorPane.bottomAnchor="48" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="32" editable="false" focusTraversable="true" id="textArea" layoutX="8" layoutY="32" opacity="0.82926829268293" prefColumnCount="40" prefHeight="424" prefWidth="696" promptText="" styleClass="text-input text-area " text="&#10;   ____  _____                                         &#10;  / __ \|  __ \                                        &#10; | |  | | |__) |___  ___  ___  _   _ _ __ ___ ___  ___ &#10; | |  | |  _  // _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|&#10; | |__| | | \ \  __/\__ \ (_) | |_| | | | (_|  __/\__ \&#10;  \___\_\_|  \_\___||___/\___/ \__,_|_|  \___\___||___/&#10;                                                       &#10;                                                            written by alphal0gy&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;for QuietLand with &lt;3&#10;&#10;&#9;&#9;&#9;&#9;&#9;!ОБЯЗАТЕЛЬНО ПРОЧИТАТЬ!&#10;&#9;&#9;&#9;если не прочитали, не жалуйтесь что не работает.&#10;&#10;QuietDownloader - программа для загрузки и установки пакетов ресурсов для Minecraft.&#10;Проще говоря - программа для тех, кому лень вручную ставить моды и ресурспаки для&#10;серера.&#10;&#10;Программа сама скачает Optifine, если он у вас стоит, то поставьте галочку &quot;У меня установлен Optifine&quot;&#10;&#10;&#9;&#9;&#9;!ДЛЯ ТЕХ, У КОГО FABRIC!&#10;&#10;Если у вас установлен Sodium или Indium, то после установки ничего работать не будет!&#10;Удалите данные моды или установите Plasmo Voice вручную. Хочу напомнить, что&#10;OPTIFINE МОЖЕТ БЫТЬ НЕ СОВМЕСТИМ С МОДАМИ НА FABRIC! ЕСЛИ У ВАС FABRIC И У ВАС ВЫЛЕТАЕТ&#10;ИГРА, НЕ НАДО МНЕ ПИСАТЬ, ЭТО ВАШИ ПРОБЛЕМЫ, Я ВАС ПРЕДУПРЕДИЛ&#10;&#10;&#10;&#10;Для того чтобы всё красиво установилось, выберите папку с вашей установкой Minecraft,&#10;т.е. там куда вы устанавливаете моды, ресурспаки и т. п.&#10;&#10;&#9;&#9;&#9;Если вы не знаете где эта папка, то:&#10;&#10;1. Откройте Minecraft&#10;2. Откройте Настройки -&gt; Наборы Ресурсов&#10;3. Нажмите &quot;Папка с наборами&quot;&#10;4. Скопируйте путь до этой папки&#10;5. Уберите &quot;\resourcepacks&quot; в конце&#10;&#10;Пример:&#10;Было: D:\Users\alphal0gy\AppData\Roaming\.minecraft\resourcepacks&#10;Стало: D:\Users\alphal0gy\AppData\Roaming\.minecraft&#10;&#10;Если вы не знаете как копировать путь, то научитесь пользоваться компьютером&#10;&#10;Если вы всё поняли, то введите пароль (узнать можно в беседе ВК) и нажмите Далее" wrapText="true">
+      <font>
+        <Font name="Lucida Console" size="12"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
+    <Button AnchorPane.bottomAnchor="7" AnchorPane.rightAnchor="8" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="592" layoutY="433" opacity="0.78048780487805" prefHeight="32" prefWidth="112" styleClass="button " text="Дальше" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="" id="data-button" visible="1"/>
+    <PasswordField AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="128" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="passwordField" layoutX="8" layoutY="432" opacity="0.89024390243902" prefColumnCount="12" prefHeight="32" prefWidth="576" promptText="" text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="password-field"/>
+      </styleClass>
+    </PasswordField>
+    <Data cursor="DEFAULT" enabled="1" id="data-passwordField" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="24" id="rect" layoutX="0" layoutY="0" opacity="0.66" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="712"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="24" id="imageAlt" layoutX="688" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/cross.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="24" id="image3" layoutX="664" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/xyu.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="2" prefHeight="20" prefWidth="304" styleClass="label " text="QuietResources - Важная информация" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/2021-03-27_16.10.30.png" visible="1"/>
+  </children>
+</AnchorPane>

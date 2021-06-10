@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="136" prefWidth="272" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="24" id="rect" layoutX="0" layoutY="0" opacity="0.66" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="272"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="0" prefHeight="23" prefWidth="80" styleClass="label " text="Работаем..." textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="56" layoutY="40" prefHeight="16" prefWidth="96" styleClass="label " text="Загрузка" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="56" layoutY="88" prefHeight="16" prefWidth="96" styleClass="label " text="Распаковка" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <ProgressIndicator focusTraversable="false" id="progressIndicator" layoutX="16" layoutY="80" prefHeight="32" prefWidth="32" progress="-0.01" style="&#10;-fx-progress-color: #ffffff;" styleClass="progress-indicator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
+    <ProgressIndicator focusTraversable="false" id="progressIndicatorAlt" layoutX="16" layoutY="32" prefHeight="32" prefWidth="32" progress="-1" style="&#10;-fx-progress-color: #ffffff;" styleClass="progress-indicator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressIndicatorAlt" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="AgreeForm">
+    
+  <method name="doPasswordFieldKeyPress">
+      <ifExpr expr="$this-&gt;passwordField-&gt;text == ''" expr-type="expr" not="1" not-type=""/>
+      <elementEnabledOn object="button" object-type="object"/>
+    <else/>
+      <elementEnabledOff object="button" object-type="object"/>
+    </method>
+  
+  
+  
+  <method name="doButtonClickLeft">
+      <ifExpr expr="$this-&gt;passwordField-&gt;text == 'Password'" expr-type="expr" not="" not-type=""/>
+      <loadForm form="MainForm" form-type="form" savePosition="1" savePosition-type="" saveSize="" saveSize-type=""/>
+      <else/>
+      <toast value="Неверный пароль" value-type="string"/>
+    </method>
+  <method name="doImageAltClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doImage3ClickLeft">
+      <phpLine expr="$this-&gt;iconified = true;" expr-type="expr"/>
+    </method>
+  </class>
+</root>

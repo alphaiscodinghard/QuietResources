@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  <method name="doImageClick">
+      <ifVar method="equals" method-type="" name="easteregg" name-type="" not="" not-type="" value="10" value-type="integer"/>
+      <showForm form="AbobaForm" form-type="form"/>
+      <else/>
+      <appendVar asString="" asString-type="" name="easteregg" name-type="" value="1" value-type="integer"/>
+    </method>
+  <method name="doConstruct">
+      <setVar name="easteregg" name-type="" value="0" value-type="integer"/>
+    </method>
+  </class>
+</root>

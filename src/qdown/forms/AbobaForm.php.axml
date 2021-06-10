@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="AbobaForm">
+    <method name="doGithubClick">
+      <browse url="https://github.com/alphaiscodinghard" url-type="string"/>
+    </method>
+  <method name="doVkClick">
+      <browse url="https://vk.com/id254805210" url-type="string"/>
+    </method>
+  <method name="doYoutubeClick">
+      <browse url="https://www.youtube.com/channel/UCBO4wVoaJOkl4U06PkfxR-w" url-type="string"/>
+    </method>
+  <method name="doDiscordClick">
+      <phpLine expr="UXClipboard::setText('kuchisabishiii#8062')" expr-type="expr"/>
+      <toast value="Скопировано!" value-type="string"/>
+    </method>
+  <method name="doImage3ClickLeft">
+      <hideForm form="AbobaForm" form-type="form"/>
+    </method>
+  </class>
+</root>

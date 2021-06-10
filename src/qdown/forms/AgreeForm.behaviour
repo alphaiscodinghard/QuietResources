@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="button">
+    <behaviour enabled="" level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="textArea">
+    <behaviour enabled="" level="0.4219512195122" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="passwordField">
+    <behaviour enabled="" level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="rect">
+    <behaviour animated="1" opacity="0.8" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="imageAlt">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+    <behaviour brightness="-0.41463414634146" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="image3">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+    <behaviour brightness="-0.4" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="label">
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="image">
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+    <behaviour brightness="-0.4" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

@@ -1,0 +1,65 @@
+{
+  "props": [],
+  "components": {
+    "Fabric": {
+      "type": "script\\MacroScript",
+      "x": 32,
+      "y": 144,
+      "props": {}
+    },
+    "FabricOF": {
+      "type": "script\\MacroScript",
+      "x": 80,
+      "y": 144,
+      "props": {}
+    },
+    "ForgeOF": {
+      "type": "script\\MacroScript",
+      "x": 32,
+      "y": 96,
+      "props": {}
+    },
+    "Forge": {
+      "type": "script\\MacroScript",
+      "x": 80,
+      "y": 96,
+      "props": {}
+    },
+    "dirChooser": {
+      "type": "script\\DirectoryChooserScript",
+      "x": 32,
+      "y": 0,
+      "props": {
+        "title": "Директория с игрой",
+        "inputNode": "pathEdit",
+        "actionNode": "button"
+      }
+    },
+    "zipFile": {
+      "type": "bundle\\zip\\ZipFileScript",
+      "x": 64,
+      "y": 0,
+      "props": {
+        "path": "example.zip",
+        "autoCreate": "1"
+      }
+    },
+    "file": {
+      "type": "script\\FileScript",
+      "x": 96,
+      "y": 0,
+      "props": {
+        "path": "QDTemp.zip",
+        "watch": "1"
+      }
+    },
+    "downloader": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 0,
+      "y": 0,
+      "props": {
+        "threadCount": "4"
+      }
+    }
+  }
+}
